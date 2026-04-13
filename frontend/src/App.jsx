@@ -5,7 +5,7 @@ function App() {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
 
-  const API = "http://localhost:5000/issues";
+  const API = "https://issue-tracker2-7629.onrender.com";
 
   const fetchIssues = async () => {
     const res = await fetch(API);
